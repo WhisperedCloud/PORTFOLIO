@@ -1,0 +1,70 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+header .navbar {
+    background: transparent;
+    transition: background 0.5s;
+    animation: fade 0.5s ease-in-out;
+}
+
+header .navbar.scrolled {
+    background: white;
+}
+
+#hero {
+    height: 100vh;
+    background: url('https://images.unsplash.com/32/Mc8kW4x9Q3aRR3RkP5Im_IMG_4417.jpg?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cG9ydGZvbGlvJTIwYmFja2dyb3VuZHxlbnwwfHwwfHx8MA%3D%3D') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+}
+
+#hero *{
+    animation: fade 0.5s ease-in-out;
+}
+
+#about,
+#skills,
+#projects,
+#contact {
+    padding: 60px 0;
+}
+
+footer {
+    background: #333;
+    color: white;
+}
+
+.it{
+    margin: 1rem 0;
+    animation: fade;
+    animation-timeline: view(70% auto);
+}
+
+.it:hover{
+    scale: 1.2;
+    color: #3498db;
+}
+
+
+
+
+section{
+    animation: fade;
+    animation-timeline: view(70% auto);
+}
+
+@keyframes fade {
+    from{
+        opacity: 0;
+        scale: 0;
+    }to{
+        opacity: 1;
+        scale: 1;
+    }
+}
