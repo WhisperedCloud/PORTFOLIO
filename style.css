@@ -3,6 +3,7 @@ body {
     line-height: 1.6;
 }
 
+
 html {
     scroll-behavior: smooth;
   }
@@ -16,16 +17,22 @@ header .navbar {
 header .navbar.scrolled {
     background: white;
 }
-
 #hero {
     height: 100vh;
-    background: url('https://images.unsplash.com/32/Mc8kW4x9Q3aRR3RkP5Im_IMG_4417.jpg?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cG9ydGZvbGlvJTIwYmFja2dyb3VuZHxlbnwwfHwwfHx8MA%3D%3D') no-repeat center center/cover;
+    background: url('https://static.vecteezy.com/system/resources/previews/007/209/963/non_2x/galaxy-stars-in-the-universe-outside-earth-abstract-graphic-design-wallpaper-card-3d-free-photo.jpg') no-repeat center center/cover;
     color: white;
     text-align: center;
 }
+.ski{
+    background: url('https://static.vecteezy.com/system/resources/previews/007/209/963/non_2x/galaxy-stars-in-the-universe-outside-earth-abstract-graphic-design-wallpaper-card-3d-free-photo.jpg') no-repeat center center/cover;
+   
+}
+.main{
+    background-color: #845162;
+}
 
 #hero *{
-    animation: fade 0.5s ease-in-out;
+    animation: fade 0.5s ease-in-out; 
 }
 
 #about,
@@ -33,17 +40,28 @@ header .navbar.scrolled {
 #projects,
 #contact {
     padding: 60px 0;
+   
 }
 
 footer {
-    background: #333;
+    background-color: white;
     color: white;
+    background: url('https://static.vecteezy.com/system/resources/previews/007/209/963/non_2x/galaxy-stars-in-the-universe-outside-earth-abstract-graphic-design-wallpaper-card-3d-free-photo.jpg') no-repeat center center/cover;
+   
+    
+   
 }
 
 .it{
     margin: 1rem 0;
     animation: fade;
     animation-timeline: view(70% auto);
+    
+}
+.card-body{
+    background-color:black;
+    background: url('https://static.vecteezy.com/system/resources/previews/007/209/963/non_2x/galaxy-stars-in-the-universe-outside-earth-abstract-graphic-design-wallpaper-card-3d-free-photo.jpg') no-repeat center center/cover;
+   
 }
 
 .it:hover{
